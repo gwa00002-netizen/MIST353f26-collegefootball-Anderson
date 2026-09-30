@@ -1,5 +1,4 @@
-CREATE TABLE test_table (
-    id INT PRIMARY KEY,
-    name VARCHAR(100),
-    created_at TIMESTAMP,
-)
+
+
+
+ALTER ROLE db_owner ADD MEMBER NandaSurendra;
