@@ -1,4 +1,6 @@
 
+CREATE LOGIN NandaSurendra
+
+WITH PASSWORD = 'MI$T353Instructor';
 
 
-ALTER ROLE db_owner ADD MEMBER NandaSurendra;
