@@ -1,3 +1,8 @@
+#Specify files to ignore in Git repository
+/data/SqlExperiments.sql
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
