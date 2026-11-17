@@ -1,0 +1,11 @@
+import pysql
+
+from get_db_connection import get_db_connection
+def get_all_teams_by_conference(conference:str):
+    conn = get_db_connection()
+    cursor = conn.cursor(as_dict=True)
+
+
+    #fetch all teams for the given conference
+    cursor.execute("(Call procGetAllTeamsByConference @ConferenceName = ?)", conference)
+    
